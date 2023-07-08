@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE CAFE</title>
+    <link rel="shortcut icon" type="image" href="https://cdn-icons-png.flaticon.com/512/4856/4856718.png">
+
+
+
+    <!--- FONT AWESOME CODE LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--- FONT LINK -->
+        <!-- GOOGLE FONTS (MONTSERRAT) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" 
+        rel="stylesheet">
+    
+    
+    <!--BOOTSTRAP 4-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
+    <!--   connect stylesheet file    -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!---header section start-->
+
+    <div class="all-content">
+        <!---NAVBAR SECTION START-->
+
+
+        <nav class="navbar navbar-expand-md" id="navbar">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html" id="logo"><img src="https://freesvg.org/img/pitr_Coffee_cup_icon.png" alt="" width="50px"> COFFEE CAFE</a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span><img src="https://www.clipartmax.com/png/small/351-3518256_menu-hamburger-icon-svg-white.png" alt="" width="30px"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <!--Dropdown start-->
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbradrop" data-toggle="dropdown">Category </a>
+                    <div class="dropdown-menu">
+                        <a href="Cappuccino Coffee.html" class="dropdown-item">Cappuccino Coffee</a>
+                        <a href="Americano Coffee.html" class="dropdown-item">Americano Coffee</a>
+                        <a href="Espresso Coffee.html" class="dropdown-item">Espresso Coffee</a>
+                        <a href="Robusta Coffee.html" class="dropdown-item">Robusta Coffee</a>
+                        <a href="Doppio Coffee.html" class="dropdown-item">Doppio Coffee</a>
+                        <a href="Arabica Coffee.html" class="dropdown-item">Arabica Coffee</a>
+                        <a href="Black Coffee.html" class="dropdown-item">Black Coffee </a>
+                    </div>
+                </li>
+                <!--Dropdown End-->
+
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                  </li>
+              </ul>
+            </div>
+            <div class="icons">
+              <a href="login.html" class="fa fa-user"></a>
+              <a href="mycart.html" class="fa fa-shopping-cart" ></a>
+              <a href="fav.html" class="fa fa-heart"></a>
+
+            </div>
+          </nav>
+        <!---NAVBAR SECTION END-->
+
+
+
+
+
+
+
+
+        <section id="product-cards">
+          <div class="container">
+            <h1>ARABICA COFFEE</h1>
+            <div class="row" style="margin-top:50px;">
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+          <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+          <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+        </div>
+        <img src="https://img.food.boxspace.in/image/rbk_5c62705b4a423/xhdpi.jpg"height="180">
+        <div class="card-body">
+          <h3>COLD <br>COFFEE</h3>
+          <div class="star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+          </div>
+          <p>
+            Iced coffee is a coffee beverage served cold. 
+          </p>
+          <h6>$ 50.10<span><button>Add Cart</button></span></h6>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+          <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+          <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+        </div>
+        <img src="https://img-global.cpcdn.com/recipes/78099f45b9f3c278/1200x630cq70/photo.jpg" height="180">
+        <div class="card-body">
+          <h3>RICH MOCHA CAPPUCCINO</h3>
+          <div class="star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p>
+            Iced coffee is a coffee beverage served cold. 
+          </p>
+          <h6>$ 70.40<span><button>Add Cart</button></span></h6>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+          <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+          <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+        </div>
+        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201605/story-reblondonfridge_647_051716124243.jpg?VersionId=UdMPOtXKPwFgVn4Faw3i1pmVmInacd5a" height="180">
+        <div class="card-body">
+          <h3>ICED CAPPICCINO</h3>
+          <div class="star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p>
+            Iced coffee is a coffee beverage served cold. 
+          </p>
+          <h6>$ 80.20<span><button>Add Cart</button></span></h6>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+          <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+          <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+        </div>
+        <img src="https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-superJumbo.jpg" height="145">
+        <div class="card-body">
+          <h3>COLD-BREWED SHAKERITO</h3>
+          <div class="star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+          </div>
+          <p>
+            Iced coffee is a coffee beverage served cold. 
+          </p>
+          <h6>$ 100.10<span><button>Add Cart</button></span></h6>
+        </div>
+      </div>
+      </div>
+      </div>
+      
+      <div class="row" style="margin-top:50px;">
+      <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+          <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+          <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+        </div>
+        <img src="https://www.beatroot.org.uk/wp-content/uploads/2018/01/61694c3c1c4118393ec6fd250e799553.jpg" height="180">
+        <div class="card-body">
+          <h3>COLD <br>COFFEE</h3>
+          <div class="star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+          </div>
+          <p>
+            Iced coffee is a coffee beverage served cold. 
+          </p>
+          <h6>$ 50.10<span><button>Add Cart</button></span></h6>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+          <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+          <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+        </div>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBISEhUREhEREQ8RERERERIRERERERERGBQZGRgUGBgcIS4lHB4rHxgZJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QGhISHDQkISE0MTQ0NDE0MTQxNDQ0NDQ0MTQ0NDE0NDE0NDQxNDQxNDE0MTE0NDQ0NDE0NDQxMTQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xABAEAACAQIEAwUGBAMECwAAAAABAgADEQQFEiExQVEGImFxgQcTMlKRoRRCscFictGCorLhFRYlM1NzdJLC8PH/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAuEQACAgEDAgQFBAMBAAAAAAAAAQIRAxIhMQRBEyJRsTJhofDxFIGRwXHR4SP/2gAMAwEAAhEDEQA/AKBsEQJVYxCJvsRgRaZPOaFrznjydd2igRbmW2EwWrlIGGXvTXZZRFhNmYNlRicv0i9p2zsytsHhwOHuU/ScyzOmAnpOh9jcWKmBoniVTQfNSR+0aMy9uYVzCLwjVX5owF7xJU9YkVV6/eH71YAHo8YBT8YDVUQvxC9Y9xbCtHjAKYjbYpRENjVHKFMNjgHbMf7Sxf8A1D/tKZZqPaRQC5lVdfhqrSq+pQKfuv3mZtAYtY/h9jIokvCtuBGgZo8JjvcqHPJlIHUgy1zPtQlXB4imABrwtVPVl0/vM7mGF1UCdwUBqedhwmdNU6GF/iCr9wf/ABlyfYzUU9yLaFDh2mZqGIkiGBA0AE2hWhw7wARBFkQiIUAmGIIIwDEOJhiABwQQQAVBEwQA7ViF2mQzunxmyrcJmc4TYzmlydGLgx1MWf1mtypthMu6Wf1mlyjgJoZTRJzY9yWns7zM6KuGB76N7xB1Rtmt5H9ZTZs3cMospzNsJiErrvoazr81M/Ev0/SaIzZ2J61Xn05dZGepVI2Bv5S0wWKp1qaVabBkdQynwMeIEuzOiopNUDAkHhvtx8JMTX/7ykokQtQ8IhjI18OMV7onwjocdIGqQAa914xYpjnEPVtGXxQHOAGH9qeVjTRxSj4CaT/yndCfW4/tTnIWdszdEr0npPulRSp8DyYeRnIcbgHo1GpuN1Ox5MvJhEykQCsewlMlh5x2nhSx2EscNhQpESBl5ToK2HcHh7t7+WkznlQ8B03PmZs87zEUqHul3eove/hS/wC528rzFHrKmTBCYIqEZJoKESRADFcYANwothEGFgLBhWhAwwYwARCtDgtABMOCCAAggggAIIIIAdxdZQ5tT2M0jpKXNE2MxyI1xMwuIWzy8yprLKrGrZ5MwlXSsIsMiHc1q7ETOVeMssZV1GVtSaoxND2U7UNhD7updsM5ueZpt8w8OonSsPmqVFD03V0IuGU3BnDqnCDCZhVom9Ko9O/EKdj6RiaO6/jIf4oTjH+tGM/4zfaEe02K51GPmYWGk7KcaOo+sYfMUH518e9ONvn1c8Xb6mMPmNVuLk+ZMdhpOu4rtBQX4qi38CSftKPHdsKK/AHe3ko+85w9ZzxYxAI/Nc+sQaTZ1u2tQ30rTXpe7/0lJiM4es16ln6WGnT5RnA4nCJb3lF36987zQ4DP8sp8MMVPXQG+5MToYrL6augZUIBNrkWBPSWGGy7Uw22j9PtJg6o0a9KsOBXSVPIjxBlvkxWoCykNp2Yjh5jwIirclmC7e0kp1UpqLMaYZ/Qtp/VpkrS77V433+LrP8AlV/dr/Knd/W59ZTSuSkqQUSYoiEYDEmGDDiYqAWY2wilMDCMBAhgxMMGJAKvBCvBGAIIIcABBBBeABQQQQA75UWVGZJsZc1JWY5djImgxvcwmYpZpFarYWllmtOzSkfjM4G+QcZpEeSGkepNzAQ42kNpN4iQ6g3gAm8ETeAGACoLwrwXgAu8MRu8MGABsIgxy8SwgAAZ0P2V41g+LRzqpJhGraTuQyNyPkTOdibb2a0ajVcUFRtFTLcSgbSdJclNIvwvxiYjGNULEs3xMSzeZNzEzTYXsJmFQC9JaYsPjdR+l5ZU/ZpiyO9VoL6sf2jpitGGhTeN7MsV+WvQb/uEhYn2dZgm6rTqfyvY/cQHaMcYRltjuzuMo71MLVUDmF1r9VvKojlz6QAIRcRDUwGJYRMcYRBETAKGDCghYChDJiQYIwDvBBBeAAggvBADvzSFihtJjSLiBtFImJj84p7zPOljNXmlO95nsTTtM4Lc6JvykFzI1SSHkerNjAFOMYhN4/TMTVEQyAwibx+okYIgAd4cReHeACoV4V4V4ALvLzIezlfGd9QKeHU2etU2QdQvzHykjsR2c/HVmapdcJQs1ZhsXJ+GmD42JPQeYnRsZjl0ilTpolBBpQAAKANthMc+ZYo6u/YvFjeSVL9ypyns9gKJ7tOpjcQN7uvdHiF4ATUZO+J96VailGiadQBVtqDWuvDyjHZ6kBqbvq7cDtpYcrAzQ0nN7EHge9bwkYpyyRUpOvkv77jyxjCTilfzf9djmuMbHA2qPVFzYWYqp8iNob5RitOpnrAc7u5+wM2WPekq2qOoXcEMPiFuQ6yqwOLqGrSpaiAULHULkpclQfG1pzzx6XTk3f8Ai/39fpwzeOVuNxilXy9vv0M9hsuxJF0q1FH/ADCv2Jk1auZUeFZyBycBxLrN6SVaiqtwygl2QXYdB5xKUCu2tz/MT999vWSlKMnFN7d017f9BzUkpNLfs1/f4INHtliaYtXwyVB8yEqfobiO68ozPuVKa0q54awKb3/hccY5iKFx3lB8Rsfr/UeszuY5Sj3KizDwsby/1E8bqW5KxY58bMh9ofZrXo3qYZ/fU+OlrCoo/RphsRh3psUdSrDiCLTpfZ3tTVwj+5xBarh727xu6eIJ4jwk72hdl1xVEYzC2ZkTWyrwqU7XJH8QnZDIpq0YTxyxupHIrxDGKhMJZIm8EMCL90YAIEOHChYBQQ4UYAggggB6AKxmskm6YxiBYR0ZmZzNOMy+M5zS51WteZWs97yVE01WiA4karJbiRasoQlDDaJAixEAy6yO6SW4jLiAyKVhR9hEMsAGoIoiERADrvZjD+4yigF+PEvUq1COJ1MwH9xVEU3SSeyBNbJsM9rtQerTIHypVcD+6RE4unzXj4c55XXKWtPtX5O7pGtLXeyRldaopCq+lARfWA4XyB/aaGt73TdW95e/+7VF5dSTMxltQW35MNX8p2vLzCvYPTvZ7d09Rbkfv6mLpskt4tvfjfj0Xpv22F1EFd0v4+/3K98jeoddQhTx77s59bWAkj3CoVf3lNnVdIYsA2nhaKrYYE673sQbVCSNuKMeXn4w2RCNwFvyIsPQ8D5giaKKV1Gn63z89lRnKTlVvb0S492VuWaqdRtYFQNfvLZiPTjL1qaVFBG/RgbEH9oxTKgAdw24bgn7R+myC9tr7mwm3Tx0R0NqvR8/f3sZZpapaqpjD4bbh/T/AOHpKbMKVmQqPiBHjYWt9jaaPWDzlZjaNmB5JrPntcfpDqYeTb5e6/6LDOpfz7GDz6iBUYDla81Xs7zNnR8K5uEBelffu3sy/cfeZHGOXdr8WJJM0nYLDaa1SoPgSmVv1YsLD6AzDppeeKXf2O7qIf8Ak9Xb3Oe9sMAuHx1emosmvWg6K41W+pMpkpljYTRduqoq46q6/CNNMHrpXf7kyFkeG1OLiejaPOqkSMtyNn3Ik7Nck0JcDlNZg6AVRtJWKwodCLcphlm1ua4UpXZx11sSImW2fYA0qh22JlRN4tSSaM5KnTBChwRoQUEOCMD0RI+J4STaM4gbSjIwnaAm9pQtNJn6bzO1FgVEhNI1QSS43jTLEUM2gEc0xNoAIaMPHqhkctEADGXMcLRJgMbJnQeyvs7/ABFBMTiajotRddOmlg2g8GYkHjxsJz9hPQ3ZrFLUwOHqLwOHpi3QqoUj6gyZFRQOx2TLg6D4ZXZ096zrrtcK4Hd247g/WR83ytqd2RS1Pj3Rdk9OY8Ja4Cr3/wCfUPVTt+8szMpQjkhUh6njnaOdNsdSkA/MN0PgRJlDHqAFqAafykk2H8rcQPAzSY/IqdQllvTc8WTYHzHAzOZj2drr8AV1/h2P0O33nDLp8uPeO/33X5R1RzY5qpbffr+GTqVXVulRj0uobb+ZT+sUKVTlp9FZf0UTJ1cDWQ7pUQ9QrW+ojRrVRt7xx/aaJ5a+OLX8r3K8BS+GSf1NgcPU51Ao82/cyLiMTTp/Hibkflp2J/eZR3duLs3mSYSYN24KzHwBMXjJ/DH+W39Niv01byl9Ev8AZb4nP6Y2pozHk9RiT6AbSB/pquLk1NvlIDfaHS7P4l+CBB8zED/P7S0w3ZulT71dy5+RbqvqeJ+0uOHNPdKvp9FXsxSn08FTp/VlThMu/FuCEK2I96V7tMr1HQ+HOaDHV6eFomjQGkd4k8d7cSfSKq4uy6KahEA2Ci0os8q6aZ6nYec68eJYovu/X/Rx5MryyS4XoYzGUgWLE/ESTLPsxhg1z0a32kPFp3RLrsgAKbsfnP6RY3bNupVRNAw0iNrmCqbEyBj8ba+8z+JxDE7GTl83BPTxa5LPtHRp1FJFrzAV6ekkTQVcY9rE3Ep8StzeXhuOzKz1LdEKFFMsTadFnKCCCCMD0XeMYg7RwRnEDaUZGOz9t5nmMvs/U3vM7UO8Y0MV1kYmTW3kOqlpJYVo28UGiam8AGWN4wUjzLERAMlYgiSDEOIDGp2T2Y4ktl6rx93Uqp5AnUP8U42ROleybHLoxGHJ72paqjqLaWt9B9ZE+Cocm9o0HZtYOlUYFbC5JEk1MxdG+EMOJUbNbqLxWFqbW8WHrxkHEqRWHykPfy0mZLZWjZx1N32LzDYhKih0bUp+x5g9DFmc+wWfDC4wq7Ww+IbSb8KdX8r+AI2PkJv0qAi44TSEtcbMckHCVCXAPECMvRQ8UX6CPtI+IrBBc7+U0ujOrGzQpj8i/QRDWHACVGK7S0Uaz6k5amXu/UcI8mZU3F1YEHoYKafDCUHHlD9Z5V4ppIq4kdZW4muINiG+pmczjEK76L7L+sss8zVaFPY3ZtlHU9fKZHBVDUe58z4mc+Z+WkdXSw82p9iRjafdicmxmhHW/O8dxvC0onqaSRMce6OnMltZZ4rFlje8g1MSZDbEmJNW810mOoeaveNMbxswKZVCtganGmpSSoi/dw1UPRZA93BJ2iHDWT4R3cLEVKe0l6YkrOk4jFdpKHdJmMdt503OsLrQi3Kczx1BqbkcrygXoARLpcQqZj6iIsrqlO0YMtK9OQnpyRkZo2wjrLEMIANGJaOERBEQDZEs+zGZfhcXSrX7gfQ/jTbZv6+kriIgiJqxpnotAL3U91gCCPqDGsxY6WIFjpIvz3ma9nmc/iMIKbG9bDWQ34tT/Ifpt6TTYsXUkdDOd2k0dC3pnM86QMGRt7/rNJ2V7QPS0YfEk6Sq+5qN+ZSLqpPW0z3aBSKhHLiDK5M1qU00sor0htof4lXojeHQ/aZ4J1sb58epWdrWqCLg8pDxJ1IeoJBmAyTtjTRQDU7vyVDpdR4MdiPWbTC4xKqLWQ6qdRSDbwJH1BBnROSZzY46bszOY0NVTSRcMrDfqBeZfBYo06jUrkAE6fLpNlm1dA/duWW9vMgic+x72q6m2ud/6zmg0ptJnVkjqhx9/dGsp45iON5Gx+apRGp21OfhQHcnx6CZarnFS1kH9oj9pWuHc6mYsx4k8Z02cfhk7EYmpiX1E3J+ijoJY4JBT2HHrKzCNp5WMlVKth5zCe+x1wpKx3HYiZ6s9yZPxNTukyqG8rHGkZ5pW0g4QigsUqTUyoUkc0QlWSEWQ2axiIVY6qwgseCyGbRQ3pgj2mCTZVHc7Q4IJ3HkEPFU7gzDZ9gLkm031RbygzrDd1j4GE5VE0wwuW5zVW0tbxk5BcStxndqHzk/CNdZUPMrJyLTKhbrcSDWS0n3jNencQoSZWsIy6R6oCDEhpJRHZY2wkphG2SAEYiJIj5WNkRAWfZnPHwNcVVGpGGionzJfl4idfy7MaeMQNTa6OLqSOB5qRyInCiJddme0D4OoDctRLAvTH+Jehmc4XwaQnWzOhZzktx1N+NrbeEyOMwhRiLdZ0fA5ph8fTNSg5YKdLqw0uhIuLj9/CZ/OMDxNut5xTjoZ3YcmpbmJqIgUgoGub34ETWezvNKaM2D7yCpd6YY3GsDvqD4gXt/CZm8coW4MgoxRldCVdGDKy8VYG4I9ZcJutyp40+Dq2ZYVbk23nOO0aaanpN7leO/HUNd9NVO5WQcNVtnHgeP1HKZvPsrtvubSXtJMmL2cXyYoC457fpHaUXUQoY1r6Tfkyapkk1BGdVzeJUEx0U+UVUNbjOI3EiIkm4lLCM06JveaQ+ExyfGhGiGqSQywKl5F7G2ncQqx5Fjq0o4tOQ2aKI1oilWPiiTykvD5az8ouSm0uSutDmmTI9htDlaJGPjw9TpUEEOdh5w24lRmY7p8jLZ5U48XBkTex0Ydjl+d0rOT4xGBflLPtHQ4mUWDqWMvp5bUT1Md7LOptDU3EJzcXjAe00ZzoTiaN5XOpEtg4Mj16QMlotMr9UBMU6WiJIxLCMvH426wGMXhRzRD0xATuzuc1MFXWtTuV+Gql7CpTvuvnzB5H1nUKnaHA1UD069Msy30OwSoPAqdwZyHTG2WROCkXCek1me0GqMXSm6i/NSAfEHnK0U2C7gyto46tTFkq1FX5Qx0/ThH6ec1QbuQ46MBMfBktjpXURe7Lvs/mtTC1w6gsh7lRPnQ8vMcR/nN/mAp1qQqU2DK3PYFeoN+BnN6Gd0TbVT0nnY7Tadn8CcXTNSkwWnqKm+92Hh6zOUJcUV4kH5rMpnVBRsoJc/Lc7dTKVcMQQDxM22Z5eFdqbuA68d+I5ESLRylBvrX6xRnpVFOOrcokw9uA3kilhesvjgEUXuDJOByWpWAdO6qsCNtiAb8YvNJ0huUYq2V+I7JVPw5xDGxtqVLfl8ZQ1KBVR16Tbdpc+Yr+FXuMSquTtZeYERgMnR0DHe869NKonD4ly1SMQmEduCmT8PlT/LN1Ty2mvIR0YZRykeE33NP1KXCMYmUt0kmlkx5zVe5XpD0gQWBdxPqpPgpcPlCjlLGlhVXlJEIzVQS4MJTlLkEEKCUQaWC8EEYxio0rcSb3ggmczoxGR7QUrqZhWbS3rBBJw8mmZWkWOHr3EKoYIJ1s4kNh48r3ggkjCqUwZDqU7QQQGhoiIIggkjEkQjBBEMSTEwQQABiDBBEAmbL2b542HxS4ck+4xLBSvHTUt3WHnwPpBBAGav2k5IWpfiqTaalM98XtqQ/uDb7znuRUK2KxCUFqFdZF2v8I4mw6wQSKVlKTUWrO00uz2Hp0gnuwe6BqO7sepMOviqWFpG97ILbAw4JRJyirQqYzGPVvpQvsL8hN/g6WhAvQQQRohjpaJLQ4IxDZaILQQRADVCvDggMTeCCCAH/9k=" height="180">
+        <div class="card-body">
+          <h3>RICH MOCHA CAPPUCCINO</h3>
+          <div class="star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p>
+            Iced coffee is a coffee beverage served cold. 
+          </p>
+          <h6>$ 70.40<span><button>Add Cart</button></span></h6>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+          <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+          <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+        </div>
+        <img src="https://beardedbrewercoffee.com.au/wp-content/uploads/2020/01/0J3A1055-e1622583087643.jpg" height="180">
+        <div class="card-body">
+          <h3>ICED CAPPICCINO</h3>
+          <div class="star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p>
+            Iced coffee is a coffee beverage served cold. 
+          </p>
+          <h6>$ 80.20<span><button>Add Cart</button></span></h6>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <div class="overlay">
+          <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+          <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+          <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+        </div>
+        <img src="https://media.istockphoto.com/id/523168994/photo/cappuccino-with-coffee-beans.jpg?s=612x612&w=0&k=20&c=qhRFxaeTppFykANecfXx8B17JSJYNJgW2KExDrUWKCk=" height="145">
+        <div class="card-body">
+          <h3>COLD-BREWED SHAKERITO</h3>
+          <div class="star">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+          </div>
+          <p>
+            Iced coffee is a coffee beverage served cold. 
+          </p>
+          <h6>$ 100.10<span><button>Add Cart</button></span></h6>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+
+                    <!-- PRODUCT CARDS -->
+                    <section id="product-cards">
+                      <div class="container">
+                        <h1></h1>
+                        <div class="row" style="margin-top:50px;">
+                          <div class="col-md-3 py-3 py-md-0">
+                            <div class="card">
+                    <div class="overlay">
+                      <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+                      <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+                      <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+                    </div>
+                    <img src="data:image/jpeg;base64,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" height="180">
+                    <div class="card-body">
+                      <h3>COLD <br>COFFEE</h3>
+                      <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                      </div>
+                      <p>
+                        Iced coffee is a coffee beverage served cold. 
+                      </p>
+                      <h6>$ 50.10<span><button>Add Cart</button></span></h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                  <div class="card">
+                    <div class="overlay">
+                      <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+                      <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+                      <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+                    </div>
+                    <img src="data:image/jpeg;base64,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" height="180">
+                    <div class="card-body">
+                      <h3>RICH MOCHA CAPPUCCINO</h3>
+                      <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                      <p>
+                        Iced coffee is a coffee beverage served cold. 
+                      </p>
+                      <h6>$ 70.40<span><button>Add Cart</button></span></h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                  <div class="card">
+                    <div class="overlay">
+                      <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+                      <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+                      <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+                    </div>
+                    <img src="data:image/jpeg;base64,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"height="180">
+                    <div class="card-body">
+                      <h3>ICED CAPPICCINO</h3>
+                      <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                      <p>
+                        Iced coffee is a coffee beverage served cold. 
+                      </p>
+                      <h6>$ 80.20<span><button>Add Cart</button></span></h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                  <div class="card">
+                    <div class="overlay">
+                      <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+                      <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+                      <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+                    </div>
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgWFBYYGRgYHBkYGhoaGBgYGBwaGRgaGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QGhISHjEkJSE0NDQ0MTQ0MTQxNDQ0MTQ0NDQ0NDY0NDE0NDQ0NDQ0NDQ0NDExMTQ0NDRANDQ0OzQ0NP/AABEIAKQBNAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAAECBwj/xAA9EAACAQMCBAUCBAQDBwUAAAABAgADBBEhMQUSQVEGImFxgTKRE0Kx0VKhwfAHI2IVM3KS0uHxFCSCosL/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAnEQACAgICAgICAQUAAAAAAAAAAQIREjEDIUFRImETgaEEMnGRsf/aAAwDAQACEQMRAD8AUnJkiIMazfJjeYlPTSch0mgBnSc1aiqfNN4AnL0Q28ACKRGMjac1KoMhclRgTSrAKO1Yg5BMlJ5tcTdHXpO61IgZEAIUbXSECjnXMDUkGFK+BAKNVFbZWktN2A804V5jvneKxUd1XImhdMBrkzqkmRNq2uAIWM4/9WO05equ+d5P+EDnQQ3hnBGuTouFG7Hb47mUlfSJbrYBSTJ8hJPQDU/aP+H8BuXGXfkX7sfjpGWbSwGPqcjtzOf2EU3HHLiswwTSXsuCT7np7Sm4w27foSylpUvY7p8MtqAy55iOrnP2E5/2+CeWlT0HU+UfAiFKR/Plj3Y5MletyajEh8/roFw3vscPf1W6hfaQVC7fnbX1xEj3xJ3MkpVHO3NJ/PZX4aGDUmx9bf8AMZyEYbO33MhC1M5xJkpuRkrGp34E4UcLUrA5FRvk5kqcYuE3ww+xmzTxOhTzNFIlxJ7bxWm1RSvuMj7x1bX9OoPIw+DkfaVW4sVI1EWVrF0PNSYqfTOI1OS32LBPXR6JVVsaaj0kAZhKjwrxa6ELX9AG6H9pcKFwlZeZGGT1H9RNFKMtEuLjsEr3JTpAat+dycQ28osv1kekr3G3cL5RkRSdDirJbni4JwDAL2qD5gYhW5IbWSm7GCBMG2zVRoHqXhL6mWTgtRGXz4lVKZbMOR+XaJddlNdFyo4GP4Y5pFDr0+JSaXFeVcbx1YcVDry4msZIylFjn/0YOuBMhFCsOUTUuiLZRf8AZRdmCjaTLwFwJFT8RIDuATD04+v8QjwiGUhbc8GdekXvb8pGZZ140rAjIMVVEBbm0OsiXH6KU/Z2nA2dQcaGbbw6dhHFLjCKoUdJyl07nIcCPFCyYgfw7UBxzSal4eqZwX0jd7Oq50cSRrGqo0bJixXoeT9iKt4fqK2F1gd1w2oN0OB2lgFzcoccuY1s7pmXLqPtFgmPNlDuKRC4GczmnbHGDvPREtaL5JXEBueAox5kOBE+MMynIpEkCaZxLBU4GQ2JGnCnZgmMZOJODKyRBwPgzVm5mOEG57+ghvEvESqxtrUDmXRnH0p3x3M34y4mLO2WlSPK7+Udwv5m95SOAoBhhn/Ue56w5JYKlsrjhl8n+kW+hZg5LHLHdjqT8yT8JEEgNyVHaRohfUnT+U5XI0UX5JWuAdhNCl1bQTh6wXRBt1MUXfFf4fMe/wCUew6xGij6HXOig4GfYQd+KqpxlR8/tEDmo2rthfXQfAE0iJ0Bb12Gf1hdDwXksScZHQr9zDaXFzjVcj0OZXKVIHQLr2Gcw9uEVEHNg4GpXrBSl4FKEfI6HE1bdT9pKt8mcEiVitcNjlOQPQ9O0ESkfyMQe2f6GX+Vk/hTLuWRxoQJ29v5e8pa3lVPqGR6aH7R/wAL4vzDQ59DNI8vfZnLia0ccQ4SHG0UWNxVtHzklP0/7S7U8ONIu4lw3nBmn2jP6Y2oV6d3SKMdCNwcMp6MpiviPAxRpeaoTjYnrK9ZVntaoGvIx07A9pe69FbqgUJxzDKt/C3T47zaMsl3szaxf0eTV6w5yJzTzkknSFcQ4c9NyrLhgSCYDTtmJ1MwfRujh6uTJ6L465kzcPxjEccL4JzkE6CFA2hG7zdpxF6bBgdJe08K0nHmMyp4Rtgp1MtRZGSBrTxGSoOn8pkyh4bo4+qZH8iaiGNwa0q6gCA3PgmkxyjkexlYsb10bTmIG8Zpxh1OQ7Aes1tGdM3c+Aqg1SqR8xcPC9+hOHDCWm34+zLow07xhS4vzAHf2jpBbKFUsL1M5TPtFte+roRzI4HoDPWF4ihGs0r0X+oL8gRUGR5lbeJXGxYY7gw+l4xZTjml6fhds26J/KAXHgu2fJ5cZ7QphaEtDxiM+YZjO18W27aGB1/8PaeDyOREV5/h5XBylSHYdF0TxJbnQECH2nEqTjAaeY3Pha9QY5QfUTVGheUl1ptp2iCj1h+RsYYTu2OWZjsnlHvux/QTyinx2sv1K6n2M9MsaoS0LtrhHY+u8drYqejzvjVy1zXdz9IJRO2B1nNqwQBAJLbJpptIqSEvgjWeXKTk3Z6kUkq9DOk4OAdhvJnrltBoogaqSQnfU+wm7luUco3aIKBryuXPKm3p1MgqMlHQ+Z98dB7x4lh+FSNR8Zxp7mVSvkZdtSf0jr2VFp6CED1G1yxOwHT2EfWPB0TDXFVVH8CnmY+hxtKvYXFRjyoDzMcab69JfeHeE1RQ93VC515QQMehJlqLb6VkzaW3X/SS34jb0h/7emSx/O2phFd6tJFquCSzZYehjHhT2XOEoAOw66nHrkxzd0VccjDRgZqoNra/Wjmc0nr/AGVehbW92pKYDdV2YfvEHFeCPTJxkyyWvhj8GtzpUZRnY6j7yyXlkrrg794lxOSdqmhvkUZdO0eT21f8r6rt6iZd2rU25kPqCOoj7iPBFZ8c3ISd+nz2nXHrJaaImclRjPeY4un9G2StV5OeEcQ5wOjDcSxUnDjSUC1fkcesunDa3T5mvDK+jLljXYNxrhoqIR1+034NvSQyP9SHX3G/7xvWTIlb4Xmnfcuwcf0I/abp4yTMWsossHiK1Dcr8oIbRj2I2MpN5wooxIXT0npNxQ/EpFfY/Y/tmBXlioXXrpNpRszjKin8Ktg+4lgtrcoPKIFa8NdXJU6Ax/QqDGCNZEUOTMVAQOkysi41hBGk4ZxLM7IqdvTxNSbSZKA8q4e5cg416yxUEULkqD8RHwqo6AipuNj3jMXQ/iESKZtKCsxPLgdtIciIq74gRqHGczWjfVmOwoKSshG+0mTlYaRW9Eflb4mJVZBtp1isVDYJk9fgwii7ps5PoYmo3g+oNpNtdtupBjCh6OJuu4zJhxE6EgiVBr/mbBGo7GHJxHA1bfbMAos78QU9PvCqTIw0wftKcvG1OmA3TAh9sA2qgjPQGAqH13Y0nVsouxOw7QTh1P8AEtGTclGXG24kbuEGrE5GMQfwheachMdC+ym0shF9h9xvIra584z1O8e8X4cEeomDoxZT05HPMv8AMkfErtJ1R/N0P96TyXGpNM9WElKNob2v+816gj5mWeHuQpOPNj+WkjufKQ6+4gN1Vw/Oh/NzDH3iRVWWzxvVRKaUVOp8x749ZR7rYCEXN29Z+dyScADJ6CCXrcuPcS28pWghHFUWvgYp2dD8dlzVf6Aeg7zuwsri/fmdjyZ1J+keiiVZb17msiYwpIUAdB1M9GvfEtG1RaNBQ74ChV2B21lpJ7dJfyZTtaVt/wAFg4TwWlbrhB5ju3U/9oZfW3OvlOGGoMTcAaqTzV2zUfBKjZF6D3lkE6oJSjVUjinal27FdO4yOVwcj7idJdBG5Scg7GE3VBW30PQyu33MpKnpIm3AqKUjrj6AnI6jPzKpxSqSFDHYYjyrXLAZ6DErl9qce85eSVu/Z1capUAKpLqMy32CnK664lbsLclwTLPYIS3oI+JByscVGAWVdfPf0sZOOYn2AzrH1/WCrr0iTwsDUualXGiLyj/iY7fabXlNIwqotl3tzhCT2i3iDl8dFGpMOuaqpTy2xIET39N3XKsOT03+Z2s5ULqdw3Oxz5c4htPmBzgnOsgoWygDrDRcgYXlk0VYSwJWS0G7icU3BGokh1G2kdCCMLMkKHTaZGI83egNiczBgaMmR6TWdc/pDbV8DqIiwW5tQQOXIkYoOB5H27w2rV1xpBLi4WmPPkAyRgj1HXVlz7TgXSnQkjPfaHU6yOPIwIkppJjzKCfSAAaEAeVlPpF17d6dtdwZLd0UBOdD0iW6pMyHTTMGwSObu6qISVIYe+sHHEHOM8x/pDeDeGHuDkMyJn6juf8AhHX3nofC/AtnTQMweqx35mOM+wwIKLY3KKKn4ftnqMBTyO5I0+8uKMtJeVNW6tGKWiJ5aaBV20kVZF7TSMaMnKxUzknWLOE1zSqnOg5mx7ZyI2uQu2srFapg+oibGkeg8VtRWRaijLoMEd16j3G4+ZRuNcPA86mWLw1xnGAT6GH8c4WGUvTGVOrKOmeq+k5P6jib+cf2dHBy4vGR53b3mgR9O2ZzUTB/vrM4lakE9MbH5g1G6/I/TYzkq+0egE0KevvJr6gDqdv70kLUiPMMkekZsoakeb6ovImyq07xkcldCRgEdM74xLd4WtcMH5ees/0KdgDu7SnXC8raDOv9/pPVPA1uRTU489TzE/woNAJvjbVEcssYstvB7D8NSWPM7au3r2HYCGtVAPziSqMCJrnJFVVPmGo+06msYpI85fJ2wq5qLUDoDhh9/QiVNLmo2lQagkA+3eHWvFM8r7MvkqD9DN3LKzvy6jIPyROeclKmmbxWPTFFaoVznHpFyUckk9dhGV2gLHP7zq0sS3T5Oc49JhjbN8kkR21H8q7nf9o9pIqLrv3mkoIgyBrEvFeKnPKoyx0AGuvxNf7UZdyZxxi85jyL5mbQKOpPSWbw/wAN/ApqmhbPM57ud/gbCLfD3BGQ/i1dXOw35Af/ANR/cVwgwNzOjhhSylsw5Zp/GOhX4nc8i4PlBI+dNf1iWx4gyHuOohXHa55VX/UT/IfuYlzOmOjIbcUtGqoXt3II1an/ANMqLcfZW5WqEMuhB0OfWWKzuijZBxJOI+ErTiB/EYFKmPNynGfXETQ0A8P8RjGS2fmNU8TZH0xDV/w1/DBNOs+vQ/8AiJbnwxdW6lzVyo6Y1k2Okz0BPEwx9JmTz+zsbqqodNQes1DIKHFFRorLt1EYrlRptJUdSMMmCeuOshfhz4yjD2zChWQvU/MQBiJeLU3fBzlD/KNq9aqgw6E/GYuqcYojR8qT06QY0wew4bUpuCpDKekem2XcriViv4gWlqjc3pBW8bltCmIh7Hd3a+c4+mdpZroTgiAW/GaLlQzjX7RtVqISORgR6HMEhMbcPeWCyq6YJ03+dpWLKsEGu5klXi7fTTBJ/v7TVMzassbsBAq9RYietcEakD5J/SBulyclSGx6kfrHkgUWMb2qBKvf1wHOPeauOIuCVcajodCIiurg84mcnZaQ1tbpkbIO8vnh/wAQ6AE+4/aecnp7SenXKnIiTobVnpvFeAU7kF6LBHO4/Kfj8p9Z59xbhLUnK1EKn1/UNsY34R4jK4ycS3UOL0a68lVVYHoQCP8AtMp8EZfKPTNeP+olDqXaPLaDsmnMcdOv8oaK3N1zgdBj4ly4h4LoVdaDlP8AS3mT4O4/nKxfeDrunkhC47oeb/67zmlwyW0dceeEtMrN59X/AJnpn+GvEFfmU/WqqPgZnntWzdT50ZT/AKgR+onXDOIVLZxUpnBG46H3hF00/Rc45xaR9Ckyl8X4kUuH5c/SAYBw/wDxIpsn+ajB/wDTqD+0R3/EHdvxgDkknHYdMzTm5U4qjl4uFxk8kMLG3qO7ED69fQa6R/Rt+RcEZPUyqU/FDoMBR8Zki8euqmiU2b2Umc8evZrJN7qi2HlXUj7wG94wiDce0VUuD39Y+cimPU6/8q/1jiw8JUUw1Qmo3+r6f+Xb75m8YTlpUZSnCO3f+BOla4ujikuE6u2QPg9fiWbgvAko+Y+Zzu53+Owh/OiDooH96QK44kTomnr1+JvDhjHt9swlyyl0ukMLq6CaDVu3b3isuWOvUyNBk5MlY8oJmj7JSoTcZqcz6bAYi+E1zkk9zICs0qkSYghlncMjArvBQJstBjL/AEqhKBmBBxkg/rOHpo41wQdxK7w7jDgqrnKjTXfB7xF40a+ovm2ANJ/MrA6juuJAJF+pW1JByqoA3xMnk1p4ruwoDLUJ6nEyK0Oiyi5I6g5mI6ncESNeQAZAJklKkepwDBMKIL7iIpoeUk47jMpXGXS6B5SFdeuMS61Cq5TTOesCqUkGWCAkdgNYMEeavwO5XULzDuDBa/Cq+5QielvQRmyUcegyBCV4OHVl5/b0hbGeQfgkaNmWfwm5Xn1Oyn9ZdqnhKiyBWwSOsFXwwlNahpklgufgHaFti6IUqEjPxHVkyhcDTv6n1iSgMoMSRKjKdJUWSx8V0nVEYBigXR9vaT0749cfpKv2BFx7hv4ic6Dzr/MdRKLeJkZ7T0WnxBTv+olT8QWqq/Mowr647Hr8SZU9BG0AW1TmQemkIYRVbPyMVOx2jMHSQWaBxJ6F26bGDsZuAixWHiR06/zlks/FinHMcTzhpIjSlJipHqycfpOMNykeuD+s5dLF9WpUj/8ABf2nmaVT0MKpXTjZj94Np7QK1pnoC8NsNxRpg+0ISjagYCLKCl8/cydLt+5iqHody9svSNbL9KJ8KJKeJIBpgfYSipcsepk6uT1jVLSFTe2Wypxhehz7QKpxZm20iRITTEG2wUUMA5bc5klIamQU4RSOMwGFrprA76tpjvJQ2YLdU2B1jjG2TJgLCaVugG5k5WaQ8jBhjIIOu2ktiRzf2r0mCuBkgHQ53gywu/u2qvzvjOg020ghiGdAyy8NK16JptqV1EraiMeD3BSop6HQxMYovbc85/DJVe3Y9Zks3FOFZqFlGjebfvNQodlZ5hnbXE6Wu+QAfiHXNifynB/pBKlModfeY0x2jT1OZxnGO0iqWvO2QdM7DSbSnnzDrOSx06E9e0LGOaNshGp2hCWQGoA17QW0ClN8+vedJUbbUCXZDR1UtgAdZDZp5W9Tj7SWq5A1OZqxICLnqTKiJ6FN9wUgl6PXUp/0n+kXMBswKt2IxLkRA7+mGU5APuMysfRKZWDSPv7ayFxHj8MQ6jK+x/oYHW4a/wCVwf8AiH9YNMdoSucQPiDl19o2uLRxunyusXVkXXf2mbRSEFZOYZ6iE2FbmHKd5K9CA1KZVuZYyg9xNAyVGDrzD595A64kgdTpDIwZ2rQAnQmTo0GQwhGgATTMKSBIYShgIMSEI8EQwhJQBlOEU4IjQhDAAxHk6QamIytaOdTtBJtik0ia3Tr1kzoGGDOHGNRJOmk2UaRldiepSIJBkDLHBRX9DAKtEqSCIikAlZwVhTpOCsRSIAJMmhBmcs6AiGXW0PMin0EyC8Hf/KWZIsQva3B1zA61vnTGR7SmWXjJToxZT2OY7Tj+cYYEY7wpMKaJa9uRqB6QEUSWLZOBoQdof/tQNpy6DWdNcow7ScSrBLUjTl+whPOWO8hAQNlWGOvSdI2eYqNxvCgsmOShyRnE7oH/ACRAzkLmEWL5pY7GXEUtHVOqw66Qmo6su+sFzJrbBJBG80MyMHSRtO+XDEdDOXEaBnAnFW2R/qUH4nU7BiY0Jq/AEcnkJX+YiG84S6E6ZHcS7UDq0WVmwTIaRSKVRRkfABwdCITcJrH9wQEcgDON8RHRqc66/UN/WSUCFZoGSsuJhQGAzFaTI0gCyVBJEFo0IptAkMJpmUAdTMKQwKnC6cVBYWkJpLIKKRjQp95aiS5UEWlHMaKcbRJY3od2C7Lp89Y2R5tGKSMpOyYzKZ0mlM1S3IgxI1Ro8wbG4Miai7HB6d4ZYHzNJOQsdBpM2zRCSomIOwjzitqoC8n1HOfjeJDC7GjgibAkiLMZYiiwcHB/DHuZuS8HX/KHzNTOhHltx4Nc/Q6n3gFx4XuU+nXX8pl3bmydgZu2qkaMQTDFFZM8/rWt5S3D/bMFbjNZMhwR7gieqCrrg7Qa4t6bfVTVgPQQxfseS8o8sfjLsdSynuNQfiH2PiYr5S3ptiXK58M2rjLJy+xIia58DUz/ALt2HvrFTQXFkVPjoZfrHrrmP/D9yHRgDkHOPiUW98GV0yUKt8kHEceDkrUCyVVIwcg9DncZji+xSXRcCJtGwQZ04199fvOTNzE6q7gjY6/feR1TiYX0xOiM+3fvForaImEzM6ecGAzmidWkdxQDazYOG95I0Q0JrmgQrr6So0X5HIPeX26YBTmUrjVqQedZk0UiZlzIuTEisbvmGDuN4YBmMCFlnaCSKkkRIUKzSCEIs0iQqmsaiFklFIdQpyGkIXTbEpRJcgqiokXFr4U0OPqOgnFS6CiV24rNXqBRsDNEqJ7ZYPDKEIWPUyxo0XcOohEAh6S1ohhaGZSbVjI+bEjD+VvU4iYIL4e2ufeNkXAzFNkh2A1jG4qcurHRck9jgaTF7NULuK1wHIG4Xl+TqYmxrO69YsxJ6nM4BxCgO8zo6yHmhVjT53Uev8hBjLLZ0sIo9JkIpvgYzMk0BT7hBpF1Hdj1G03MgwQwpSTkGfiZMghMjZBBam01MiY0C1zrArjTaZMgUN6Jyoz/AHrMmTJqjJ7OWnVFiQczJkYIx5GZqZACKvNsZkySUKa7knWB3CAg5mTJEiyn34/DqeXSNKLnSZMiBhiGTJMmSkSyZIQkyZKQidDO2czJktCYn4pXbRc6HeNfDtBd8azUyHkHotVKTrMmS0ZHVTacj8syZExoZWO4+f0gnF67YUZ0Op9T6zJky8mngVCSURk6zJkGMkvVA2A2jHgCDJPWZMi8DDL6qebfoJkyZAZ//9k="height="145">
+                    <div class="card-body">
+                      <h3>COLD-BREWED SHAKERITO</h3>
+                      <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                      </div>
+                      <p>
+                        Iced coffee is a coffee beverage served cold. 
+                      </p>
+                      <h6>$ 100.10<span><button>Add Cart</button></span></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="row" style="margin-top:50px;">
+                <div class="col-md-3 py-3 py-md-0">
+                  <div class="card">
+                    <div class="overlay">
+                      <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+                      <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+                      <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+                    </div>
+                    <img src="https://www.worldatlas.com/r/w1200/upload/12/f8/83/coffee-cup.jpg">
+                    <div class="card-body">
+                      <h3>COLD <br>COFFEE</h3>
+                      <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                      </div>
+                      <p>
+                        Iced coffee is a coffee beverage served cold. 
+                      </p>
+                      <h6>$ 50.10<span><button>Add Cart</button></span></h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                  <div class="card">
+                    <div class="overlay">
+                      <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+                      <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+                      <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2015/05/07/13/46/cappuccino-756490__340.jpg">
+                    <div class="card-body">
+                      <h3>RICH MOCHA CAPPUCCINO</h3>
+                      <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                      <p>
+                        Iced coffee is a coffee beverage served cold. 
+                      </p>
+                      <h6>$ 70.40<span><button>Add Cart</button></span></h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                  <div class="card">
+                    <div class="overlay">
+                      <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+                      <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+                      <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+                    </div>
+                    <img src="https://media.istockphoto.com/id/523168994/photo/cappuccino-with-coffee-beans.jpg?s=612x612&w=0&k=20&c=qhRFxaeTppFykANecfXx8B17JSJYNJgW2KExDrUWKCk=">
+                    <div class="card-body">
+                      <h3>ICED CAPPICCINO</h3>
+                      <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                      <p>
+                        Iced coffee is a coffee beverage served cold. 
+                      </p>
+                      <h6>$ 80.20<span><button>Add Cart</button></span></h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0">
+                  <div class="card">
+                    <div class="overlay">
+                      <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+                      <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+                      <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+                    </div>
+                    <img src="https://media.istockphoto.com/id/1130315137/photo/cup-of-cappuccino-coffee.jpg?s=612x612&w=0&k=20&c=L2OrThNrUWtfThYPBeyyyEhc4b1VwC6hzk1Yj1x4IJI=" height="135">
+                    <div class="card-body">
+                      <h3>COLD-BREWED SHAKERITO</h3>
+                      <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                      </div>
+                      <p>
+                        Iced coffee is a coffee beverage served cold. 
+                      </p>
+                      <h6>$ 100.10<span><button>Add Cart</button></span></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="product-cards">
+            <div class="container">
+              <h1></h1>
+              <div class="row" style="margin-top:50px;">
+                <div class="col-md-3 py-3 py-md-0">
+                  <div class="card">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+            <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+          </div>
+          <img src="https://img.food.boxspace.in/image/rbk_5c62705b4a423/xhdpi.jpg"height="180">
+          <div class="card-body">
+            <h3>COLD <br>COFFEE</h3>
+            <div class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star "></span>
+              <span class="fa fa-star "></span>
+            </div>
+            <p>
+              Iced coffee is a coffee beverage served cold. 
+            </p>
+            <h6>$ 50.10<span><button>Add Cart</button></span></h6>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+            <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+          </div>
+          <img src="https://img-global.cpcdn.com/recipes/78099f45b9f3c278/1200x630cq70/photo.jpg" height="180">
+          <div class="card-body">
+            <h3>RICH MOCHA CAPPUCCINO</h3>
+            <div class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <p>
+              Iced coffee is a coffee beverage served cold. 
+            </p>
+            <h6>$ 70.40<span><button>Add Cart</button></span></h6>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+            <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+          </div>
+          <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201605/story-reblondonfridge_647_051716124243.jpg?VersionId=UdMPOtXKPwFgVn4Faw3i1pmVmInacd5a" height="180">
+          <div class="card-body">
+            <h3>ICED CAPPICCINO</h3>
+            <div class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <p>
+              Iced coffee is a coffee beverage served cold. 
+            </p>
+            <h6>$ 80.20<span><button>Add Cart</button></span></h6>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+            <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+          </div>
+          <img src="https://static01.nyt.com/images/2015/10/02/fashion/02CAPP3SUB/02CAPP3SUB-superJumbo.jpg" height="145">
+          <div class="card-body">
+            <h3>COLD-BREWED SHAKERITO</h3>
+            <div class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star "></span>
+            </div>
+            <p>
+              Iced coffee is a coffee beverage served cold. 
+            </p>
+            <h6>$ 100.10<span><button>Add Cart</button></span></h6>
+          </div>
+        </div>
+        </div>
+        </div>
+        
+        <div class="row" style="margin-top:50px;">
+        <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+            <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+          </div>
+          <img src="https://www.beatroot.org.uk/wp-content/uploads/2018/01/61694c3c1c4118393ec6fd250e799553.jpg" height="180">
+          <div class="card-body">
+            <h3>COLD <br>COFFEE</h3>
+            <div class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star "></span>
+              <span class="fa fa-star "></span>
+            </div>
+            <p>
+              Iced coffee is a coffee beverage served cold. 
+            </p>
+            <h6>$ 50.10<span><button>Add Cart</button></span></h6>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+            <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+          </div>
+          <img src="data:image/jpeg;base64,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" height="180">
+          <div class="card-body">
+            <h3>RICH MOCHA CAPPUCCINO</h3>
+            <div class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <p>
+              Iced coffee is a coffee beverage served cold. 
+            </p>
+            <h6>$ 70.40<span><button>Add Cart</button></span></h6>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+            <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+          </div>
+          <img src="https://beardedbrewercoffee.com.au/wp-content/uploads/2020/01/0J3A1055-e1622583087643.jpg" height="180">
+          <div class="card-body">
+            <h3>ICED CAPPICCINO</h3>
+            <div class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <p>
+              Iced coffee is a coffee beverage served cold. 
+            </p>
+            <h6>$ 80.20<span><button>Add Cart</button></span></h6>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick view"><i><img src="https://static.thenounproject.com/png/1154658-200.png" alt="" width="20px"></i></button>
+            <button type="button" class="btn btn-secondary" title="Quick Whichlist"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/OOjs_UI_icon_watchlist-ltr.svg/2048px-OOjs_UI_icon_watchlist-ltr.svg.png" width="20px" alt=""></i></button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i><img src=" https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png" width="20px" alt=""></i></button>
+          </div>
+          <img src="https://media.istockphoto.com/id/523168994/photo/cappuccino-with-coffee-beans.jpg?s=612x612&w=0&k=20&c=qhRFxaeTppFykANecfXx8B17JSJYNJgW2KExDrUWKCk=" height="145">
+          <div class="card-body">
+            <h3>COLD-BREWED SHAKERITO</h3>
+            <div class="star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star "></span>
+            </div>
+            <p>
+              Iced coffee is a coffee beverage served cold. 
+            </p>
+            <h6>$ 100.10<span><button>Add Cart</button></span></h6>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--footer start here-------->
+<footer id="footer">
+  <h1 class="text-center">COFFEE CAFE</h1>
+  <p class="text-center">
+    A coffeehouse, coffee shop, or café is an establishment that primarily serves coffee of various<br>
+    types, notably espresso, latte, and cappuccino. Some coffeehouses may serve cold drinks, such as<br> 
+    iced coffee and iced tea, as well as other non-caffeinated beverages. In continental Europe,<br>
+    cafés serve alcoholic drinks.
+  </p>
+  <div class="icons text-center">
+    <a href="https://www.facebook.com/reeturaj.vats.3/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEU6VZ////82Up4zUJ1UbKx4ibswTpyMmsQ5V6EtTJupss8nSJnN0+WVosgqSpo4U56eqcyDksDj5vBwgbb3+PxFXqNabqt9jb3S2OhidbC9xdy3v9l0hLjZ3etLY6bq7fTEyt4dQpdJYqekrs2uttK97JEgAAADFUlEQVR4nO3c2XLiMBBAUUZmM3IsFsNgSIAk/P83TsLzjCNbI3c3de9rqlw+BV7VZDIhIiIiIiIiIiIiIiIiIlJeCM4VxbzsrJDey8G50s/3h91ss3jp7LdJYii8262rbfPr545eem/753y9qWJwjypzwqJuT7E6i0JX7459fOaEvn3r5zMmLPy5r8+W0L9Gn15MCkO9GuAzJHSh9xFoS1hcrsOAVoTzdsghaEhYTAcDbQjdfjjQhDAshx6DRoShrhKAFoR+nQI0ICzaJKABYZlyEFoQ1p9pQPVCd0m4UJgQ+lsiULvQXVKB2oW+1ysZg8KwTAYqF5ZpF3sDQr99cqFLvJ3RL0y+2usXDnw1Y0YYUh58TQiL3X8Aql57Kvschs3xdF/9pftC8fphj3vSalZ6X5tbA/axJ5rtzhdBem+HVEeeaKq55s+po1DHAW/vJj+/yfdifdxX1OYX9LuwjxIejH5Fv3LTGOBJ8eXup+KEH056P4cXJby+S+9mQlHCUy29mwlFCddz6d1MKEq4sXsmjRTOEGoOIUL9IUSoP4QI9YcQof4QItQfQoT6Q4hQR27+78qYucRX37GFR7Jrb65ddBQz1Hbv2sCjpSixvEcgEitlhcN+cNenRnZxagThm+wK6ghC4TXiEYSr8tmFwstvIwhb2XX+EYR72St+fmEj6htDuBW+a8svPArPauQXnp9e+CI8jZJfKP38mF8ofDnML2wuwsOn2YVX6ena7MKt9PRpduHt6YUr6eHM7MKF9HBmduGr9OvU7MKp9BR4bmEjDcwulJ9zzy2U/+1hbqH0s1N+4afsq8QRhPKT/LmFB+kb7+xC6Tua7ELhdacRhOLPTtmFCv7ZQOY14LP4xWISlh2FqFkM17UF8VPpF7Hjb3HTJl2nSwXAzp5jnqYrhAj1hxCh/hAi1B9ChPpDiFB/CBHqDyFC/SFEqD+ECPWHEKH+ECLUH0KE+kOIUH8IEeoPIUL9IUSoP4QI9YcQof4QItQfQoT6Q4hQfwgR6g8hQv0hRKg/hAj1hxCh/hAi1B9ChD36A+1ASVvVoq0WAAAAAElFTkSuQmCC" height="25px"></a>
+    <a href="https://www.instagram.com/naughty_stay_587/"><img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg" height="25px"></a>
+    <a href="https://www.youtube.com/@reeturajvlogs4434/featured/"><img src="https://yt3.ggpht.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s900-c-k-c0x00ffffff-no-rj" height="25px"></a>
+    <a href="https://www.linkedin.com/in/reeturaj-kumar-372963238/"><img src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw=w240-h480-rw" height="25px"></a> 
+  </div>
+  <div class="copyright text-center">
+    &copy; Copyright <strong>COFFEE CAFE</strong>   All Right Reserved
+  </div>
+  <div class="credite text-center">
+    REETURAJ KUMAR
+  </div>
+</footer>
+</div>
